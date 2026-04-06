@@ -44,24 +44,28 @@ The screen capture shows:
 
 **Repository:** https://github.com/KhangMLe165/UltiFilm-Drawing
 
-| Feature | Location |
+| Feature | Link |
 |---|---|
-Canvas setup & resize
-https://github.com/KhangMLe165/UltiFilm-Drawing/blob/eedee067b99e98984bd235dd55cc77f18773570b/ultifilm-drawing.html#L764
-applyStyle() — all pen types
-https://github.com/KhangMLe165/UltiFilm-Drawing/blob/eedee067b99e98984bd235dd55cc77f18773570b/ultifilm-drawing.html#L894
-onDown / onMove / onUp — pointer events
-https://github.com/KhangMLe165/UltiFilm-Drawing/blob/eedee067b99e98984bd235dd55cc77f18773570b/ultifilm-drawing.html#L935
-drawShape() — arrow, circle, rect, triangle
-https://github.com/KhangMLe165/UltiFilm-Drawing/blob/eedee067b99e98984bd235dd55cc77f18773570b/ultifilm-drawing.html#L1013
-Eraser cursor overlay + size scaling
-https://github.com/KhangMLe165/UltiFilm-Drawing/blob/eedee067b99e98984bd235dd55cc77f18773570b/ultifilm-drawing.html#L799
-saveUndo / undo / redo — snapshot history
-https://github.com/KhangMLe165/UltiFilm-Drawing/blob/eedee067b99e98984bd235dd55cc77f18773570b/ultifilm-drawing.html#L858
-renderFormation() — play formations
-https://github.com/KhangMLe165/UltiFilm-Drawing/blob/eedee067b99e98984bd235dd55cc77f18773570b/ultifilm-drawing.html#L1145
+| Canvas setup and resize | https://github.com/KhangMLe165/UltiFilm-Drawing/blob/eedee067b99e98984bd235dd55cc77f18773570b/ultifilm-drawing.html#L764 |
+| `applyStyle()` — all pen types | https://github.com/KhangMLe165/UltiFilm-Drawing/blob/eedee067b99e98984bd235dd55cc77f18773570b/ultifilm-drawing.html#L894 |
+| `onDown / onMove / onUp` — pointer events | https://github.com/KhangMLe165/UltiFilm-Drawing/blob/eedee067b99e98984bd235dd55cc77f18773570b/ultifilm-drawing.html#L935 |
+| `drawShape()` — arrow, circle, rect, triangle | https://github.com/KhangMLe165/UltiFilm-Drawing/blob/eedee067b99e98984bd235dd55cc77f18773570b/ultifilm-drawing.html#L1013 |
+| Eraser cursor overlay + size scaling | https://github.com/KhangMLe165/UltiFilm-Drawing/blob/eedee067b99e98984bd235dd55cc77f18773570b/ultifilm-drawing.html#L799 |
+| `saveUndo / undo / redo` — snapshot history | https://github.com/KhangMLe165/UltiFilm-Drawing/blob/eedee067b99e98984bd235dd55cc77f18773570b/ultifilm-drawing.html#L858 |
+| `renderFormation()` — play formations | https://github.com/KhangMLe165/UltiFilm-Drawing/blob/eedee067b99e98984bd235dd55cc77f18773570b/ultifilm-drawing.html#L1145 |
 
 ---
+
+## AI Attribution
+
+This prototype was built with the assistance of **Claude** (Anthropic, claude.ai). Claude generated all HTML, CSS, and JavaScript in `ultifilm-drawing.html`, including:
+
+- The full canvas drawing system (`applyStyle`, pointer event handlers, shape rendering)
+- All five pen tool behaviors (pen, marker, dashed, calligraphy, spray)
+- The eraser with adjustable size and visual cursor overlay
+- The undo/redo system using `ImageData` snapshots
+- The SVG field with three switchable player formations (Barnyard, Infinity, Wall)
+- The annotation toolbar UI, color swatches, stroke size slider, and Ultifilm styling
 
 ## AI Attribution
 
