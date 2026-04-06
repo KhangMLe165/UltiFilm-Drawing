@@ -65,5 +65,3 @@ This prototype was built with the assistance of **Claude** (Anthropic). Claude w
 - Implement the eraser cursor overlay and size-scaling logic
 - Build the SVG field with switchable player formations per play
 - Set up the undo/redo ImageData snapshot system
-
-Claude is available at [claude.ai](https://claude.ai)
