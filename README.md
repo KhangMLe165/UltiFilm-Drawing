@@ -19,7 +19,13 @@
 
 ## Technical Requirement
 
-**2D Drawing (Annotation Layer).** Ultifilm requires coaches to draw freehand strokes, shapes, and text directly on top of game footage to highlight player positions and movements. To confirm this is satisfied, I need to show: (1) a transparent canvas rendered over a field/video frame that captures mouse input, (2) freehand drawing with at least two distinct pen styles, (3) shape tools (circle, arrow, rectangle, triangle), (4) an eraser with adjustable size that shows a visible cursor, (5) working undo and redo across all drawing actions, and (6) the canvas resetting and a new player formation loading when switching between plays in the sidebar.
+**2D Drawing (Annotation Layer).** Ultifilm requires coaches to draw freehand strokes, shapes, and text directly on top of game footage to highlight player positions and movements. To confirm this is satisfied, I need to show: 
+(1) a transparent canvas rendered over a field/video frame that captures mouse input
+(2) freehand drawing with at least two distinct pen styles
+(3) shape tools (circle, arrow, rectangle, triangle)
+(4) an eraser with adjustable size that shows a visible cursor
+(5) working undo and redo across all drawing actions
+(6) the canvas resetting and a new player formation loading when switching between plays in the sidebar.
 
 ---
 
